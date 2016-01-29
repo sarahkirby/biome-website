@@ -27,9 +27,19 @@ $('form.ajax').on('submit', function() {
 			url: url,
 			type: type,
 			data: data,
+			beforeSend: function(){
+				$('.loader').css('display', 'block');
+			},
 			success: function(response) {
 
-				$('#contact-form').html('<h2>'+ response +'</h2>').css('padding-top', '10%');
+				$('.loader').css('display', 'none');
+
+				$('#contact-form').html('<h3>'+ response +'</h3>').css({
+					'padding-top': '10%',
+					'line-height': '1.3em',
+					'font-size': '1.7em',
+					'padding-left': '1em'
+				});
 				$('.flex > h1').hide();
 				$('.p-hide').hide();
 			}

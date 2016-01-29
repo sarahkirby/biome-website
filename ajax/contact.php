@@ -6,6 +6,8 @@ use Mailgun\Mailgun;
 
 if (isset($_POST)) {
 
+	sleep(3);
+
 	# Instantiate the client.
 
 	# creating new object with mailgun API (class already made)
@@ -28,7 +30,7 @@ if (isset($_POST)) {
 	    'text'    =>  $emailBody
 	));
 
-	echo "Thank-you for your enquiry.<br>You will hear from us very soon.<br><br>- The Biome Team";
+	echo "Thank-you for your enquiry.<br>You will hear from us very soon.<br><br> The Biome Team";
 } else {
 	"Something went wrong, our apologies. Please contact Ben directly on...";
 }

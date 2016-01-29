@@ -10,6 +10,7 @@
   <meta name="keywords" content="Biome Limited, Landscaping, Gareden maintenance, lawnmowing, Landscape design, affordable, Wellington, Lower Hutt, Upper Hutt">
   <meta name="author" content="Sarah Kirby">
   <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/animsition.min.css">
   <link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
   <!--[if gte IE 8]>
     <link rel="stylesheet" type="text/css" href="ie8-and-up.css" />
@@ -17,7 +18,12 @@
 </head>
 
 <body>
-<div id="container">
+<div class="animsition"
+  data-animsition-in-class="fade-in-down-sm"
+  data-animsition-in-duration="2000"
+  data-animsition-out-class="fade-out-down-sm"
+  data-animsition-out-duration="2000" 
+  id="container">
 
 
 <!-- Hamburger button -->
@@ -244,9 +250,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="../js/form.ajax.js"></script>
   <script src="../js/script.js"></script>
+  <script src="../js/animsition.min.js"></script>
   <script src="../js/swiper.min.js"></script>
   <script src="../js/form.js"></script>
   <script type="text/javascript">
+
+  $(document).ready(function() {
+    $('.animsition').animsition();
+  });
+
+
   document.addEventListener('DOMContentLoaded', function() {
       var theForm = document.querySelector('#contact-form');
       addFormValidation(theForm);
@@ -266,7 +279,6 @@
  </script> 
 </body>
 </html>
-
 
 
 

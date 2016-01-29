@@ -434,9 +434,9 @@ textarea {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #f2f2f2 url(../images/comment.gif) no-repeat 50%;
+  background: #f2f2f2 url(../images/comment.gif) no-repeat 50% 40%;
   display: none;
-
+  zoom: .6;
 }
 
 /*----footer----*/
@@ -618,6 +618,9 @@ textarea {
   .clear {
     overflow: auto;
   }
+  .loader {
+    background-position: 50%;
+  }
 }
 
 
@@ -771,6 +774,7 @@ textarea {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
+    cursor: default;
   }
   .flex-1 {
     -webkit-box-orient: vertical;
@@ -853,6 +857,9 @@ textarea {
   } 
   #form span {
     margin-left: 2.5em;
+  }
+  .loader {
+    background-position: 45% 50%;
   }
 
 }
@@ -958,6 +965,9 @@ textarea {
     width: 69.4vw;
     height: 30vw;
     padding-left: 13%;
+  }
+  .loader {
+    background-position: 28%;
   }
 
 }
