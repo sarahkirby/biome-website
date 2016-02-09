@@ -3,14 +3,14 @@ $(document).ready( function(){
 
  // Hamburger menu
 
-    $(".button a").click(function(){
+    $("#nav-icon3").click(function(){
         $(".overlay").fadeToggle(200);
-       $(this).toggleClass('btn-open').toggleClass('btn-close');
+       // $(this).toggleClass('btn-open').toggleClass('btn-close');
     });
 
 	$('.overlay').on('click', function(){
 	    $(".overlay").fadeToggle(200);   
-	    $(".button a").toggleClass('btn-open').toggleClass('btn-close');
+	    // $("#nav-icon3").toggleClass('btn-open').toggleClass('btn-close');
 	    // open = false;
 	});
 

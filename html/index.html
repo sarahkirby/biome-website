@@ -30,8 +30,14 @@
 
   <header>
     <nav>
-      <div class="button">
+<!--       <div class="button">
         <a class="btn-open" href="#"></a>
+      </div> -->
+      <div id="nav-icon3">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </nav>
 
@@ -275,6 +281,12 @@
         loop: true,
         effect: 'fade'
     });
+
+  $(document).ready(function(){
+  $('#nav-icon3').click(function(){
+    $(this).toggleClass('open');
+  });
+  });
 
  </script> 
 </body>
