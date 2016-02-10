@@ -5,13 +5,11 @@ $(document).ready( function(){
 
     $("#nav-icon3").click(function(){
         $(".overlay").fadeToggle(200);
-       // $(this).toggleClass('btn-open').toggleClass('btn-close');
     });
 
 	$('.overlay').on('click', function(){
-	    $(".overlay").fadeToggle(200);   
-	    // $("#nav-icon3").toggleClass('btn-open').toggleClass('btn-close');
-	    // open = false;
+	    $(".overlay").fadeToggle(200);
+	    $('#nav-icon3').toggleClass('open');
 	});
 
  // Price drop downs
