@@ -3,7 +3,7 @@ Website for Biome Limited, a landscape and garden maintenance company based in W
 Biome's online presence will provide an opportunity for new clients who can now find the business online, look at the services Biome provide, view previous work and can easily get in touch.
 
 ## Setup (for Developers)
-This website is very simple and is built predominantly using HTML5, CSS3 and small amounts of Javascript & jQuery. It is the second website I have built and at the time that was all I knew. Revisiting the site I have added some php & ajax for the contact form.
+This website is very simple and built predominantly using HTML5, CSS3 and small amounts of Javascript & jQuery. It is the second website I have built and at the time that was all I knew. Revisiting the site I have added some PHP & Ajax for the contact form.
 
 ## APIs
 * Mailgun "Transactional Email API Service for Developers" [Mailgun] (https://www.mailgun.com).
