@@ -218,11 +218,11 @@ p {
   background-color: #f2f2f2;
 }
 .seedling-icon {
-  background-image: url(../images/error-seedling.png);
+/*  background-image: url(../images/error-seedling.png);
   background-image: url(../images/seedling.svg);
   background-repeat: no-repeat;
   height: 3em;
-  width: 2em;
+  width: 2em;*/
   align-self: center;
 }
 #about h1 {
@@ -452,16 +452,16 @@ p {
           flex-direction: row;
 }
 #facebook {
-  background-image: url(../images/error-fb-white.png);
+/*  background-image: url(../images/error-fb-white.png);
   background-image: url(../images/fb-white.svg);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   width: 18px;
   height: 31.4px;
 }
 #instagram {
-  background-image: url(../images/error-insta-white.png);
-  background-image: url(../images/insta-white.svg);
-  background-repeat: no-repeat;
+/*  background-image: url(../images/error-insta-white.png);
+  background-image: url(../images/insta-white.svg);*/
+  /*background-repeat: no-repeat;*/
   width: 33px;
   height: 34px;
 }
@@ -537,13 +537,19 @@ textarea {
 
 /*----footer----*/
 
+footer {
+  /*---remove if using css background image & not html <img>---*/
+  display: flex;
+  justify-content: center;
+}
 #foot-logo {
-  background-image:  url(../images/error-logo-footer-mobile.png);
+/*  background-image:  url(../images/error-logo-footer-mobile.png);
   background-image: url(../images/logo-footer-mobile.svg);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   width: 147px;
   height: 143px;
   margin: 1em auto;
+  text-align: center;
 }
 
 
