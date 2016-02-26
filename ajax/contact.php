@@ -6,7 +6,12 @@ use Mailgun\Mailgun;
 
 if (isset($_POST)) {
 
-	sleep(3);
+	$_POST['name'] = htmlspecialchars($_POST['name'], ENT_QUOTES);
+	$_POST['email'] = htmlspecialchars($_POST['email'], ENT_QUOTES);
+	$_POST['number'] = htmlspecialchars($_POST['number'], ENT_QUOTES);
+	$_POST['message'] = htmlspecialchars($_POST['message'], ENT_QUOTES);
+
+	sleep(2);
 
 	# Instantiate the client.
 
