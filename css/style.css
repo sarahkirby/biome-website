@@ -539,8 +539,14 @@ textarea {
 
 footer {
   /*---remove if using css background image & not html <img>---*/
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 #foot-logo {
 /*  background-image:  url(../images/error-logo-footer-mobile.png);
