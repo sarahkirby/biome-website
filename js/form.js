@@ -93,7 +93,7 @@ function addFormValidation(theForm) {
             //Min max length check-------------------------------
 
             if (field.minLength > 0 && field.value.length < field.minLength) {
-                errorMsg = " Must be" + field.minLength + " or more characters long.";
+                errorMsg = " Must be " + field.minLength + " or more characters long.";
             }
 
              if (field.maxLength > 0 && field.value.length > field.maxLength) {
