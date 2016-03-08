@@ -85,7 +85,7 @@ function addFormValidation(theForm) {
             // email check---------------------------------------
 
             if (field.type === "email" && ! isEmail(field.value)) {             
-                errorMsg = " please enter a valid email";
+                errorMsg = " Please enter a valid email";
             }
 
 
