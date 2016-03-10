@@ -18,243 +18,266 @@
 </head>
 
 <body>
-<div class="animsition"
-  data-animsition-in-class="fade-in-down-sm"
-  data-animsition-in-duration="2000"
-  data-animsition-out-class="fade-out-down-sm"
-  data-animsition-out-duration="2000" 
-  id="container">
+
+  <!-- Container div + Page load animation -->
+
+  <div class="animsition"
+    data-animsition-in-class="fade-in-down-sm"
+    data-animsition-in-duration="2000"
+    data-animsition-out-class="fade-out-down-sm"
+    data-animsition-out-duration="2000" 
+    id="container">
 
 
-<!-- Hamburger button -->
+  <!-- Navigation -->
 
-  <header>
-    <nav>
-<!--       <div class="button">
-        <a class="btn-open" href="#"></a>
-      </div> -->
-      <div id="nav-icon3">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </nav>
+    <header>
 
+      <!-- Hamburger menu -->
 
-<!-- Navigation Overlay -->
-
-    <div class="overlay">
-      <div class="wrap">
-        <ul>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#prices">SERVICES</a></li>
-          <li><a href="#portfolio">PORTFOLIO</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
-
-
-<!-- Landing Page -->
-
-  <div id="landing-page">
-    <img src="../images/biome-logo.svg" alt="Biome Limited logo" onerror="this.src='../images/error-biome-logo.png'">
-    <h1>BIOME</h1>
-    <p>Design-led garden solutions</p>
-  </div>
-
-
-<!-- About -->
-  <section id="philosophy">
-    <div id="about">
-      <img src="../images/seedling.svg" alt="leaf icon" onerror="this.src='../images/error-seedling.png'" class="seedling-icon">
-      <!-- <div class="seedling-icon"></div> -->
-      <h1>PHILOSOPHY</h1>
-      <p>As a company we apply ecological thinking to deliver beautiful, easy to care for outdoor spaces, with a focus on quality, sustainability, &amp; creativity. By thinking ecologically and with a preference for working with native plants, we provide solutions that are lush, interesting, organic, and which once established require minimal on going maintenance.</p>
-    </div>
-
-
-
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image:url(../images/about-img.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(../images/slider2.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(../images/slider3.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(../images/slider4.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(../images/slider5.jpg)"></div>
+      <nav>
+        <div id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination swiper-pagination-white"></div>
-        <!-- Add Arrows -->
-        <div id="next-arrow" class="swiper-button-next"></div>
-        <div id="prev-arrow" class="swiper-button-prev"></div>
-    </div>
-    <!-- <img class="hide-img" src="../images/about-img.jpg" alt="garden planter wall."> -->
-  </section>
+      </nav>
 
 
-<!-- What We Do -->
+      <!-- Navigation Overlay -->
 
-  <section id="services">
-    <h1>WHAT WE DO</h1>
-
-    <div class="service-img hover-1">
-      <span class="design">
-      <h2 class="line-1">DESIGN</h2>
-      <!-- <p class="hide">Description about what design services we offer goes here.</p> -->
-      <img class="design-img" src="../images/design-img.jpg" alt="front of house with short battern fence and native grasses.">
-      </span>
-    </div>
-
-    <div class="service-img hover-1">
-      <span class="design">
-      <h2 class="line-1">CONSTRUCTION</h2>
-      <img class="design-img" src="../images/construction-img.jpg" alt="outdoor steps with multi leveled garden to its left.">
-      </span>
-    </div>
-
-    <div class="service-img hover-1">
-      <span class="design">
-      <h2 class="line-1">CARE</h2>
-      <img class="design-img" src="../images/care-img.jpg" alt="green manicured lawn in backyard, edged with grasses and wooden seat.">
-      </span>
-    </div>
-
-    <div id="spacer" class="service-img">
-      <div class="bg-image"></div>
-      <p>Working with nature</p>
-    </div>
-
-  </section>
-
-
-<!-- Prices -->
-
-  <section id="prices">
-    <div class="flex-1">
-      <h1>SERVICES</h1>
-      <p>The services we offer are as follows.</p>
-    </div>
-
-    <div class="flex-1">
-      <div class="topics price-type">
-        <h2>TOOLS</h2>
-        <div id="tools-icon"></div>
-      </div>
-      <div class="box">
-        <ul>
-          <li>Hedge Trimming</li>
-          <li>Weed Eating</li>
-          <li>Lawn Mowing</li>
-          <li>Tree Work</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="flex-1">
-      <div class="topics price-type labour">
-        <h2>LABOUR</h2>
-        <div id="labour-icon"></div>
-      </div>
-      <div class="box labour">
-        <ul>
-          <li>Manual Gardening</li>
-          <li>Landscaping Labour</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="flex-1">
-      <div class="topics price-type">
-        <h2>DESIGN / BUILD</h2>
-        <div id="build-icon"></div>
-      </div>
-      <div class="box">
-        <ul>
-          <li>Landscape Design</li>
-          <li>Landscaper</li>
-          <li>Builder</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-
-<!-- Portfolio / unfinished part of the site-->
-
-  <section id="portfolio">
-    <div id="background-port"></div>
-    <div id="happy">
-    <div class="white-seedling-icon"></div>
-    <h1>PORTFOLIO</h1>
-    <p>COMING SOON</p>
-  </div>
-  </section>
-
-<!-- Contact -->
-
-  <div class="clear">
-
-    <section id="contact">
-
-      <div class="scale">
-        <p>Ben Hawkey / Owner
-        <br>+ 64 22 070 6020
-        <br>info@biome.co.nz</p>
-
-        <div class="direction">
-          <a href="https://www.facebook.com/regenerategardening/" target="_blank">
-            <img src="../images/fb-white.svg" alt="facebook logo" onerror="this.src='../images/error-fb-white.png'" id="facebook">
-          </a>
-          <img src="../images/insta-white.svg" alt="instagram logo" onerror="this.src='../images/error-insta-white.png'" id="instagram">
+      <div class="overlay">
+        <div class="wrap">
+          <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#prices">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
         </div>
+      </div>
+    </header>
+
+
+  <!-- Landing Page -->
+
+    <div id="landing-page">
+      <img src="../images/biome-logo.svg" alt="Biome Limited logo" onerror="this.src='../images/error-biome-logo.png'">
+      <h1>BIOME</h1>
+      <p>Design-led garden solutions</p>
+    </div>
+
+
+  <!-- About -->
+
+    <section id="philosophy">
+      <div id="about">
+        <img src="../images/seedling.svg" alt="leaf icon" onerror="this.src='../images/error-seedling.png'" class="seedling-icon">
+        <!-- <div class="seedling-icon"></div> -->
+        <h1>PHILOSOPHY</h1>
+        <p>As a company we apply ecological thinking to deliver beautiful, easy to care for outdoor spaces, with a focus on quality, sustainability, &amp; creativity. By thinking ecologically and with a preference for working with native plants, we provide solutions that are lush, interesting, organic, and which once established require minimal on going maintenance.</p>
+      </div>
+
+
+      <!-- Image slider -->
+
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image:url(../images/about-img.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(../images/slider2.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(../images/slider3.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(../images/slider4.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(../images/slider5.jpg)"></div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination swiper-pagination-white"></div>
+          <!-- Add Arrows -->
+          <div id="next-arrow" class="swiper-button-next"></div>
+          <div id="prev-arrow" class="swiper-button-prev"></div>
+      </div>
+    </section>  
+
+
+  <!-- What We Do -->
+
+    <section id="services">
+      <h1>WHAT WE DO</h1>
+
+      <div class="service-img hover-1">
+        <span class="design">
+        <h2 class="line-1">DESIGN</h2>
+        <!-- <p class="hide">Description about what design services we offer goes here.</p> -->
+        <img class="design-img" src="../images/design-img.jpg" alt="front of house with short battern fence and native grasses.">
+        </span>
+      </div>
+
+      <div class="service-img hover-1">
+        <span class="design">
+        <h2 class="line-1">CONSTRUCTION</h2>
+        <img class="design-img" src="../images/construction-img.jpg" alt="outdoor steps with multi leveled garden to its left.">
+        </span>
+      </div>
+
+      <div class="service-img hover-1">
+        <span class="design">
+        <h2 class="line-1">CARE</h2>
+        <img class="design-img" src="../images/care-img.jpg" alt="green manicured lawn in backyard, edged with grasses and wooden seat.">
+        </span>
+      </div>
+
+      <div id="spacer" class="service-img">
+        <div class="bg-image"></div>
+        <p>Working with nature</p>
       </div>
 
     </section>
 
-<!-- Contact Form -->
 
-    <section id="form">
-      <div class="loader"></div>
-      <div class="flex">
-        <h1>GET IN TOUCH</h1>
-        <p class="p-hide">Give us a call or email anytime of day or alternatively fill in the form below.</p>
+  <!-- Services -->
+
+    <section id="prices">
+      <div class="flex-1">
+        <h1>SERVICES</h1>
+        <p>The services we offer are as follows.</p>
       </div>
-      
+
+      <div class="flex-1">
+
+        <div class="topics price-type">
+          <h2>TOOLS</h2>
+          <div id="tools-icon"></div>
+        </div>
+
+        <div class="box">
+          <ul>
+            <li>Hedge Trimming</li>
+            <li>Weed Eating</li>
+            <li>Lawn Mowing</li>
+            <li>Tree Work</li>
+          </ul>
+        </div>
+
+      </div>  <!-- Flex container ends -->
+
+      <div class="flex-1">
+
+        <div class="topics price-type labour">
+          <h2>LABOUR</h2>
+          <div id="labour-icon"></div>
+        </div>
+
+        <div class="box labour">
+          <ul>
+            <li>Manual Gardening</li>
+            <li>Landscaping Labour</li>
+          </ul>
+        </div>
+
+      </div> <!-- Flex container ends -->
+
+      <div class="flex-1">
+
+        <div class="topics price-type">
+          <h2>DESIGN / BUILD</h2>
+          <div id="build-icon"></div>
+        </div>
+
+        <div class="box">
+          <ul>
+            <li>Landscape Design</li>
+            <li>Landscaper</li>
+            <li>Builder</li>
+          </ul>
+        </div>
+
+      </div> <!-- Flex container ends -->
+
+    </section>
+
+
+  <!-- Portfolio / unfinished part of the site -->
+
+    <section id="portfolio">
+      <div id="background-port"></div>
+
+      <div id="happy">
+        <div class="white-seedling-icon"></div>
+        <h1>PORTFOLIO</h1>
+        <p>COMING SOON</p>
+      </div>
+
+    </section>
+
+
+  <!-- Contact -->
+
+    <div class="clear">
+
+      <section id="contact">
+
+        <div class="scale">
+          <p>Ben Hawkey / Owner
+          <br>+ 64 22 070 6020
+          <br>info@biome.co.nz</p>
+
+          <div class="direction">
+            <a href="https://www.facebook.com/regenerategardening/" target="_blank">
+              <img src="../images/fb-white.svg" alt="facebook logo" onerror="this.src='../images/error-fb-white.png'" id="facebook">
+            </a>
+            <img src="../images/insta-white.svg" alt="instagram logo" onerror="this.src='../images/error-insta-white.png'" id="instagram">
+          </div>
+        </div>
+
+      </section>
+
+
+  <!-- Contact Form -->
+
+      <section id="form">
+
+        <div class="loader"></div> <!-- Ajax loader -->
+
+        <div class="flex">
+          <h1>GET IN TOUCH</h1>
+          <p class="p-hide">Give us a call or email anytime of day or alternatively fill in the form below.</p>
+        </div>
+        
+        <!-- Form begins -->
+
         <form id="contact-form" method="POST" action="../ajax/contact.php" class="ajax">
 
           <div class="flex">          
-              
-              <input type="text" name="name" id="name" class="form-style" placeholder=" Name" required>
-              <span id="name-error"></span>
+            <!-- name input -->
+            <input type="text" name="name" id="name" class="form-style" placeholder=" Name" required>
+            <span id="name-error"></span>
+            <!-- email input -->
+            <input type="email" name="email" id="email" class="form-style" placeholder=" Email" required>
+            <span id="email-error"></span>
+            <!-- number input -->
+            <input id="number" class="form-style" type="tel" name="number" placeholder=" Phone">
+          </div> <!-- flex container ends -->
 
-            
-              
-              <input type="email" name="email" id="email" class="form-style" placeholder=" Email" required>
-              <span id="email-error"></span>
+          <div class="flex">   
+            <!-- message input --> 
+            <textarea name="message" id="message" class="form-style" placeholder=" Message" required minLength="10"></textarea>
+            <span id="message-error"></span>
+            <!-- submit button -->
+            <input type="submit" id="submit" value="Submit">
+          </div><!-- flex container ends -->
 
-              <input id="number" class="form-style" type="tel" name="number" placeholder=" Phone">
-          </div>
-
-          <div class="flex">    
-              <textarea name="message" id="message" class="form-style" required minLength="10" placeholder=" Message"></textarea>
-              <span id="message-error"></span>
-            
-              <input type="submit" id="submit" value="Submit">
-          </div>
         </form>
-    </section>
-  </div>
+      </section>
+    </div>
 
-<!-- Footer -->
 
-  <footer>
-    <!-- <div id="foot-logo"></div> -->
-    <img src="../images/logo-footer-mobile.svg" alt="Biome Limited, Wellington logo" onerror="this.src='../images/error-logo-footer-mobile.png'" id="foot-logo">
-  </footer>
-</div>
+  <!-- Footer -->
+
+    <footer>
+      <img src="../images/logo-footer-mobile.svg" alt="Biome Limited, Wellington logo" onerror="this.src='../images/error-logo-footer-mobile.png'" id="foot-logo">
+    </footer>
+
+  </div> <!-- container end + animsition div -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="../js/form.ajax.js"></script>
@@ -264,34 +287,36 @@
   <script src="../js/form.js"></script>
   <script type="text/javascript">
 
+  // Page load animation
   $(document).ready(function() {
-    $('.animsition').animsition();
+      $('.animsition').animsition();
   });
 
-
+  // Form validation
   document.addEventListener('DOMContentLoaded', function() {
       var theForm = document.querySelector('#contact-form');
       addFormValidation(theForm);
-    });
+  });
 
+  // Image slider
   var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        spaceBetween: 30,
-        // autoplay: 3000,
-        loop: true,
-        effect: 'fade'
-    });
+      pagination: '.swiper-pagination',
+      paginationClickable: '.swiper-pagination',
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      spaceBetween: 30,
+      loop: true,
+      effect: 'fade'
+  });
 
-  $(document).ready(function(){
-  $('#nav-icon3').click(function(){
-    $(this).toggleClass('open');
+  // Hamburger menu
+  $(document).ready(function() {
+      $('#nav-icon3').click(function(){
+      $(this).toggleClass('open');
   });
   });
 
- </script> 
+  </script> 
 </body>
 </html>
 
