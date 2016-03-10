@@ -223,7 +223,9 @@ p {
   background-repeat: no-repeat;
   height: 3em;
   width: 2em;*/
-  align-self: center;
+ -webkit-align-self: center;
+   -ms-flex-item-align: center;  
+       align-self: center;
 }
 #about h1 {
   text-align: center;
@@ -506,6 +508,9 @@ textarea {
   padding-top: .7em;
   height: 7em;
   margin-right: 3em;
+}
+#number {
+  margin-bottom: 15px;
 }
 #submit {
   border: 2px solid #0e323a;
