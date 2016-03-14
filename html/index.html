@@ -36,7 +36,7 @@
       <!-- Hamburger menu -->
 
       <nav>
-        <div id="nav-icon3">
+        <div id="nav-icon">
           <span></span>
           <span></span>
           <span></span>
@@ -47,11 +47,11 @@
 
       <!-- Navigation Overlay -->
 
-      <div class="overlay">
+      <div class="nav-overlay">
         <div class="wrap">
           <ul>
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#prices">SERVICES</a></li>
+            <li><a href="#services">SERVICES</a></li>
             <li><a href="#portfolio">PORTFOLIO</a></li>
             <li><a href="#contact">CONTACT</a></li>
           </ul>
@@ -74,7 +74,6 @@
     <section id="philosophy">
       <div id="about">
         <img src="../images/seedling.svg" alt="leaf icon" onerror="this.src='../images/error-seedling.png'" class="seedling-icon">
-        <!-- <div class="seedling-icon"></div> -->
         <h1>PHILOSOPHY</h1>
         <p>As a company we apply ecological thinking to deliver beautiful, easy to care for outdoor spaces, with a focus on quality, sustainability, &amp; creativity. By thinking ecologically and with a preference for working with native plants, we provide solutions that are lush, interesting, organic, and which once established require minimal on going maintenance.</p>
       </div>
@@ -101,27 +100,27 @@
 
   <!-- What We Do -->
 
-    <section id="services">
+    <section id="what-we-do">
       <h1>WHAT WE DO</h1>
 
-      <div class="service-img hover-1">
+      <div class="service-img hover-img">
         <span class="design">
-        <h2 class="line-1">DESIGN</h2>
+        <h2 class="line-effect">DESIGN</h2>
         <!-- <p class="hide">Description about what design services we offer goes here.</p> -->
         <img class="design-img" src="../images/design-img.jpg" alt="front of house with short battern fence and native grasses.">
         </span>
       </div>
 
-      <div class="service-img hover-1">
+      <div class="service-img hover-img">
         <span class="design">
-        <h2 class="line-1">CONSTRUCTION</h2>
+        <h2 class="line-effect">CONSTRUCTION</h2>
         <img class="design-img" src="../images/construction-img.jpg" alt="outdoor steps with multi leveled garden to its left.">
         </span>
       </div>
 
-      <div class="service-img hover-1">
+      <div class="service-img hover-img">
         <span class="design">
-        <h2 class="line-1">CARE</h2>
+        <h2 class="line-effect">CARE</h2>
         <img class="design-img" src="../images/care-img.jpg" alt="green manicured lawn in backyard, edged with grasses and wooden seat.">
         </span>
       </div>
@@ -136,13 +135,13 @@
 
   <!-- Services -->
 
-    <section id="prices">
-      <div class="flex-1">
+    <section id="services">
+      <div class="flexbox">
         <h1>SERVICES</h1>
         <p>The services we offer are as follows.</p>
       </div>
 
-      <div class="flex-1">
+      <div class="flexbox">
 
         <div class="topics price-type">
           <h2>TOOLS</h2>
@@ -160,7 +159,7 @@
 
       </div>  <!-- Flex container ends -->
 
-      <div class="flex-1">
+      <div class="flexbox">
 
         <div class="topics price-type labour">
           <h2>LABOUR</h2>
@@ -176,7 +175,7 @@
 
       </div> <!-- Flex container ends -->
 
-      <div class="flex-1">
+      <div class="flexbox">
 
         <div class="topics price-type">
           <h2>DESIGN / BUILD</h2>
@@ -311,7 +310,7 @@
 
   // Hamburger menu
   $(document).ready(function() {
-      $('#nav-icon3').click(function(){
+      $('#nav-icon').click(function(){
       $(this).toggleClass('open');
   });
   });

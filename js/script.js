@@ -3,13 +3,13 @@ $(document).ready( function(){
 
  // Hamburger menu
 
-    $("#nav-icon3").click(function(){
-        $(".overlay").fadeToggle(200);
+    $("#nav-icon").click(function(){
+        $(".nav-overlay").fadeToggle(200);
     });
 
-	$('.overlay').on('click', function(){
-	    $(".overlay").fadeToggle(200);
-	    $('#nav-icon3').toggleClass('open');
+	$('.nav-overlay').on('click', function(){
+	    $(".nav-overlay").fadeToggle(200);
+	    $('#nav-icon').toggleClass('open');
 	});
 
  // Price drop downs
